@@ -1,0 +1,66 @@
+atenv
+
+# =====================
+# OS / Editor junk
+# =====================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+.idea/
+.vscode/
+.env
+
+# =====================
+# Logs
+# =====================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =====================
+# Environment files
+# =====================
+.env
+.env.*
+!.env.example
+
+# =====================
+# Dependencies
+# =====================
+node_modules/
+vendor/
+
+# =====================
+# Build / dist
+# =====================
+dist/
+build/
+out/
+target/
+
+# =====================
+# Cache
+# =====================
+.cache/
+.npm/
+.eslintcache
+
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# =====================
+# Misc
+# =====================
+coverage/
